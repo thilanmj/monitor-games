@@ -36,8 +36,8 @@ class UserActivitySerializer(serializers.ModelSerializer):
 
 
 class GameSerializer(serializers.ModelSerializer):
-    team = TeamSerializer(many=True, read_only=True)
+    teams = TeamSerializer(many=True, read_only=True)
 
     class Meta:
         model = Game
-        fields = ('team', 'id', 'is_won', 'final_score')
+        fields = ('teams', 'id', 'is_won', 'final_score')

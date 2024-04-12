@@ -18,8 +18,9 @@ export class GameService {
     }),
   };
 
-  getGames(): Observable<Response> {
+  getGames(): Observable<any> {
+    const url = API_URL+'games';
     return this.http
-      .get<Response>(API_URL);
+      .get<any>(url);
   }
 }
