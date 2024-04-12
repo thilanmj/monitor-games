@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.top-navigation{
+  background-color: #4f5c6f;
+  height: 50px;
+}
+.top-center-component{
+  background-color: #323a47;
+  height: 70px;
+  margin: 10px auto 0px auto;
+}
+.title{
+  color: #fff;
+  padding-top: 18px;
+  margin:0px !important;
+}
+.back-button, a {
+  color: #ffffff;
+  text-decoration: none;
+  padding-left: 0px;
+}
+.back-button-div{
+  margin: 30px 0px;
+}
+.sub-title{
+  color: #21bda6;
+}
+.details-component{
+  margin-top: 40px;
+  padding: 0 22px;
+}
+.sub-component{
+  font-weight: bolder;
+}
+body{
+  background-color: #f3f4f6;
+}
+.detail-sub-component{
+  background-color: #fff;
+}
+.description{
+  background-color: #000;
+  color: #ffffff;
+  padding-top: 16px;
+}
+.description-component p{
+  padding: 20px;
+}
+.description-value{
+  background-color: #ffffff;
+}
+.nav-item{
+  width: 200px;
+}
